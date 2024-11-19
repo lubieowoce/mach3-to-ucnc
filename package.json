@@ -1,0 +1,8 @@
+{
+  "name": "mach3-to-ucnc",
+  "type": "module",
+  "module": "./src/main.js",
+  "scripts": {
+    "build-win64": "bun build --compile src/main.js --target=bun-windows-x64 --outfile=build/mach3-to-ucnc.exe"
+  }
+}
